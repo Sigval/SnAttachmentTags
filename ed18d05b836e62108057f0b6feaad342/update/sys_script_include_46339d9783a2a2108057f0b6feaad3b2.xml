@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1699952_attach_0.AttachmentInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AttachmentInfo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AttachmentInfo = Class.create();
+AttachmentInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	update: function() {
+        
+		var attachmentTable = this.getParameter('sysparm_attachment_table');
+        var attachmentId = this.getParameter('sysparm_attachment_id');
+		var attachmentType = this.getParameter('sysparm_attachment_type');
+
+		var attachment = new GlideRecord('sys_attachment');
+		if(attachment.get(attachmentId)) {
+			attachment.setValue('table_name', attachmentTable);
+			attachment.update();
+		}
+
+		var attachmentInfo = new GlideRecord('x_1699952_attach_0_attachment_info');
+		attachmentInfo.initialize();
+		attachmentInfo.setValue('u_attachment', attachment.getUniqueValue());
+		attachmentInfo.setValue('u_tag', attachmentType);
+		attachmentInfo.insert();
+		
+		var response = {};
+		response.attachmentTable = attachmentTable;
+		response.attachmentId = attachmentId;
+		response.attachmentType = attachmentType;
+
+        return JSON.stringify(response);
+    },
+
+    type: 'AttachmentInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 11:54:00</sys_created_on>
+        <sys_id>46339d9783a2a2108057f0b6feaad3b2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>AttachmentInfo</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>sys_script_include_46339d9783a2a2108057f0b6feaad3b2</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 14:07:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>attachment_tags</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:44:05</sys_created_on>
+        <sys_id>178ad81f836e62108057f0b6feaad3c1</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name>Attachment Tags</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>item_option_new_set_178ad81f836e62108057f0b6feaad3c1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-10 14:18:09</sys_updated_on>
+        <title>Attachment Tags</title>
+        <type>one_to_one</type>
+        <version>73</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

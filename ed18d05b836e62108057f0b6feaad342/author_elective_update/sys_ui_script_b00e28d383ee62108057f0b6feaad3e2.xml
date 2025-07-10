@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1699952_attach_0.SP max_attachment_cou</name>
+        <script><![CDATA[var SPAttachmentVariableFix = (function() {
+
+	function runFix() {
+		var el = angular.element('[ng-controller="widget-sc-cat-item-v2"]');
+		if (!el || el.length === 0) {
+			return;
+		}
+
+		var scope = el.scope();
+		if (!scope || !scope.c || !scope.c.data || !scope.c.data.variables) {
+			return;
+		}
+
+		scope.c.data.variables.forEach(function(variable) {
+			if (variable.type === 'attachment' && variable.attributes) {
+				var attrs = variable.attributes.split(',');
+				attrs.forEach(function(attr) {
+					var parts = attr.split('=');
+					var key = parts[0].trim();
+					var value = parts[1] ? parts[1].trim() : '';
+
+					if (key === 'max_attachment_count') {
+						variable.max_attachment_count = parseInt(value, 10);
+					}
+				});
+			}
+		});
+
+		scope.$apply();
+	}
+
+	try {
+		var injector = angular.element(document).injector();
+		if (injector) {
+			var $rootScope = injector.get('$rootScope');
+			$rootScope.$on('sp.widgets.rendered', function() {
+				runFix();
+			});
+		}
+	} catch (e) {
+		// silently fail
+	}
+
+	return {
+		init: runFix
+	};
+
+})();
+]]></script>
+        <script_name>SP max_attachment_count Fix</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 09:08:39</sys_created_on>
+        <sys_id>b00e28d383ee62108057f0b6feaad3e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1699952_attach_0.SP max_attachment_cou</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>sys_ui_script_b00e28d383ee62108057f0b6feaad3e2</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 09:25:21</sys_updated_on>
+        <ui_type>1</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>sys_ui_script_b00e28d383ee62108057f0b6feaad3e2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1699952_attach_0.SP max_attachment_cou&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SPAttachmentVariableFix = (function() {
+
+	function runFix() {
+		var el = angular.element('[ng-controller="widget-sc-cat-item-v2"]');
+		if (!el || el.length === 0) {
+			return;
+		}
+
+		var scope = el.scope();
+		if (!scope || !scope.c || !scope.c.data || !scope.c.data.variables) {
+			return;
+		}
+
+		scope.c.data.variables.forEach(function(variable) {
+			if (variable.type === 'attachment' &amp;&amp; variable.attributes) {
+				var attrs = variable.attributes.split(',');
+				attrs.forEach(function(attr) {
+					var parts = attr.split('=');
+					var key = parts[0].trim();
+					var value = parts[1] ? parts[1].trim() : '';
+
+					if (key === 'max_attachment_count') {
+						variable.max_attachment_count = parseInt(value, 10);
+					}
+				});
+			}
+		});
+
+		scope.$apply();
+	}
+
+	try {
+		var injector = angular.element(document).injector();
+		if (injector) {
+			var $rootScope = injector.get('$rootScope');
+			$rootScope.$on('sp.widgets.rendered', function() {
+				runFix();
+			});
+		}
+	} catch (e) {
+		// silently fail
+	}
+
+	return {
+		init: runFix
+	};
+
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;SP max_attachment_count Fix&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sigval.bergesen@gmail.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 09:08:39&lt;/sys_created_on&gt;&lt;sys_id&gt;b00e28d383ee62108057f0b6feaad3e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1699952_attach_0.SP max_attachment_cou&lt;/sys_name&gt;&lt;sys_package display_value="Attachment Tags" source="x_1699952_attach_0"&gt;ed18d05b836e62108057f0b6feaad342&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Attachment Tags"&gt;ed18d05b836e62108057f0b6feaad342&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_b00e28d383ee62108057f0b6feaad3e2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sigval.bergesen@gmail.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-10 09:25:21&lt;/sys_updated_on&gt;&lt;ui_type&gt;1&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1523075420</payload_hash>
+        <record_name>x_1699952_attach_0.SP max_attachment_cou</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 09:25:21</sys_created_on>
+        <sys_id>e3e1f4db83ee62108057f0b6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f3a75e550000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 09:25:21</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>abe1f4dbdbee62104e4bf64dff3b99c1</update_guid>
+        <update_guid_history>abe1f4dbdbee62104e4bf64dff3b99c1:1523075420,2dc1f0db4eee6210929f2fae9282ebde:442080583,7a1e68971bee621020b0afe93742db8b:17698883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 10:38:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>e6e878acd8ef459e842305f36062a604</sys_id>
+        <sys_metadata>b00e28d383ee62108057f0b6feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1699952_attach_0.SP max_attachment_cou</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>sys_ui_script_b00e28d383ee62108057f0b6feaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_b00e28d383ee62108057f0b6feaad3e2">e3e1f4db83ee62108057f0b6feaad3c2</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:38:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

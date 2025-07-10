@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Test</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Sigval Bergesen">5c186b3a836622108057f0b6feaad3c4</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=95789c5b836e62108057f0b6feaad399&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:34:40</sys_created_on>
+        <sys_id>95789c5b836e62108057f0b6feaad399</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>sc_cat_item_95789c5b836e62108057f0b6feaad399</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:44:23</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>17</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=95789c5b836e62108057f0b6feaad399"/>
+    <fx_price action="DELETE" query="id=95789c5b836e62108057f0b6feaad399"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>95789c5b836e62108057f0b6feaad399</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:34:40</sys_created_on>
+        <sys_id>9298d05b836e62108057f0b6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:34:40</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>95789c5b836e62108057f0b6feaad399</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:34:40</sys_created_on>
+        <sys_id>1298d05b836e62108057f0b6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:34:40</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>sc_cat_item_95789c5b836e62108057f0b6feaad399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Test</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_save_as_draft>true</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="Sigval Bergesen">5c186b3a836622108057f0b6feaad3c4</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=95789c5b836e62108057f0b6feaad399&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 07:34:40</sys_created_on><sys_id>95789c5b836e62108057f0b6feaad399</sys_id><sys_mod_count>17</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package><sys_policy/><sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope><sys_update_name>sc_cat_item_95789c5b836e62108057f0b6feaad399</sys_update_name><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 10:44:23</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>17</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=95789c5b836e62108057f0b6feaad399"/><fx_price action="delete_multiple" query="id=95789c5b836e62108057f0b6feaad399"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>95789c5b836e62108057f0b6feaad399</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 07:34:40</sys_created_on><sys_id>9298d05b836e62108057f0b6feaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 07:34:40</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>95789c5b836e62108057f0b6feaad399</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 07:34:40</sys_created_on><sys_id>1298d05b836e62108057f0b6feaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 07:34:40</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1727684702</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 10:44:24</sys_created_on>
+        <sys_id>d50449938362a2108057f0b6feaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f3efbbf50000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:44:24</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>9d044993dc62a21089d36eea89bac1a2</update_guid>
+        <update_guid_history>9d044993dc62a21089d36eea89bac1a2:-1727684702,b1d285139162a210ce44957d77e685e3:947241054,e9846c5bc3ae62109e20f2f1372a16ca:-1182779768,b30b945ff96e621016b30e71b692d349:1574415911,490b545f576e6210957d1b5a3b614d5c:-336962842,c50b545f966e6210f01cbb5f90128a55:2046625701,e91a901f256e6210bf332ee7a78b6e31:135246948,b5f9dcdb856e62100d650b7d55a3a97d:-1776131805,f1b958dba66e6210a137bf1f4c6aa994:-1401631515,29b958dbb86e6210c34e03c2810abc8a:981957028,7769d0db046e6210b61e80b5f8755cf6:-929421725,9369d0dbbc6e6210f4cd39c802ee1ec1:1454166818,1f69d0db4a6e62102649e9d046de5ca9:-457211935,c7295c9bef6e6210ad8fd62dddd1d6ba:1926376608,70d8949b4d6e62100d0d1a6095379cdb:-1797032598,85b8149bdb6e6210f779509d75850619:208694251,2e98509bf66e6210838d52c95d484f78:952831557,da98d05b126e6210aa8a3ec614213b2c:-433469011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test">a90449938362a2108057f0b6feaad3a6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 10:44:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>13a5ea6928bd4b128295ef2fff7fb989</sys_id>
+        <sys_metadata>95789c5b836e62108057f0b6feaad399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_95789c5b836e62108057f0b6feaad399</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_95789c5b836e62108057f0b6feaad399">d50449938362a2108057f0b6feaad3a3</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:44:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

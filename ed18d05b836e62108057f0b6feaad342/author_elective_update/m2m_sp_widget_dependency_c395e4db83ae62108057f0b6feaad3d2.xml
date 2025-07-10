@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="dialog-polyfill">2eaf31f30b301200b0b02c6317673a84</sp_dependency>
+        <sp_widget display_value="Copy of SC Catalog Item">0395e4db83ae62108057f0b6feaad3ce</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 08:31:31</sys_created_on>
+        <sys_id>c395e4db83ae62108057f0b6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dialog-polyfill.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_c395e4db83ae62108057f0b6feaad3d2</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 08:31:31</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>m2m_sp_widget_dependency_c395e4db83ae62108057f0b6feaad3d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="dialog-polyfill">2eaf31f30b301200b0b02c6317673a84</sp_dependency><sp_widget display_value="Copy of SC Catalog Item">0395e4db83ae62108057f0b6feaad3ce</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 08:31:31</sys_created_on><sys_id>c395e4db83ae62108057f0b6feaad3d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dialog-polyfill.Copy of SC Catalog Item</sys_name><sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package><sys_policy/><sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope><sys_update_name>m2m_sp_widget_dependency_c395e4db83ae62108057f0b6feaad3d2</sys_update_name><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 08:31:31</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1132700081</payload_hash>
+        <record_name>dialog-polyfill.Copy of SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 08:31:31</sys_created_on>
+        <sys_id>cf95e4db83ae62108057f0b6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f37615f00000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 08:31:31</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>c395e4db9dae6210e9b0bff474de96d4</update_guid>
+        <update_guid_history>c395e4db9dae6210e9b0bff474de96d4:1132700081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dialog-polyfill.Copy of SC Catalog Item">68d6205f83ae62108057f0b6feaad350</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 08:36:49</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>2102a7b83eec47f193686f0de710a2f1</sys_id>
+        <sys_metadata>c395e4db83ae62108057f0b6feaad3d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dialog-polyfill.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_c395e4db83ae62108057f0b6feaad3d2</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_c395e4db83ae62108057f0b6feaad3d2">cf95e4db83ae62108057f0b6feaad3d4</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 08:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

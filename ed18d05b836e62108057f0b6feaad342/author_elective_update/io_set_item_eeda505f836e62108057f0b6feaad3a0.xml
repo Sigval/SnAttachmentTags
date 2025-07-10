@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>900</order>
+        <sc_cat_item display_value="Test">95789c5b836e62108057f0b6feaad399</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:45:14</sys_created_on>
+        <sys_id>eeda505f836e62108057f0b6feaad3a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Attachment Tags.Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>io_set_item_eeda505f836e62108057f0b6feaad3a0</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:45:26</sys_updated_on>
+        <variable_set display_value="Attachment Tags">178ad81f836e62108057f0b6feaad3c1</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>io_set_item_eeda505f836e62108057f0b6feaad3a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>900</order><sc_cat_item display_value="Test">95789c5b836e62108057f0b6feaad399</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 07:45:14</sys_created_on><sys_id>eeda505f836e62108057f0b6feaad3a0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Attachment Tags.Test</sys_name><sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package><sys_policy/><sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope><sys_update_name>io_set_item_eeda505f836e62108057f0b6feaad3a0</sys_update_name><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 07:45:26</sys_updated_on><variable_set display_value="Attachment Tags">178ad81f836e62108057f0b6feaad3c1</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>183586085</payload_hash>
+        <record_name>Attachment Tags.Test</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:45:26</sys_created_on>
+        <sys_id>bf0b945f836e62108057f0b6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f34be3df0000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:45:26</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>770b945f3b6e621099f18ce13c6d204b</update_guid>
+        <update_guid_history>770b945f3b6e621099f18ce13c6d204b:183586085,4d0b545fea6e6210993341a7d248eb5e:1603238685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Attachment Tags.Test">a90449938362a2108057f0b6feaad3c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 10:44:24</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>2da282cf70884080a1f1d7eed4f4e409</sys_id>
+        <sys_metadata>eeda505f836e62108057f0b6feaad3a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment Tags.Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>io_set_item_eeda505f836e62108057f0b6feaad3a0</sys_update_name>
+        <sys_update_version display_value="io_set_item_eeda505f836e62108057f0b6feaad3a0">bf0b945f836e62108057f0b6feaad34b</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:44:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
