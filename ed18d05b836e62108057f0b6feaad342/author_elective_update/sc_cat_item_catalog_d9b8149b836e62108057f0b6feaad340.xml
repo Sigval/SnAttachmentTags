@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Test">95789c5b836e62108057f0b6feaad399</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:35:09</sys_created_on>
+        <sys_id>d9b8149b836e62108057f0b6feaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d9b8149b836e62108057f0b6feaad340</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:35:09</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>sc_cat_item_catalog_d9b8149b836e62108057f0b6feaad340</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Test">95789c5b836e62108057f0b6feaad399</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 07:35:09</sys_created_on><sys_id>d9b8149b836e62108057f0b6feaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Test</sys_name><sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package><sys_policy/><sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope><sys_update_name>sc_cat_item_catalog_d9b8149b836e62108057f0b6feaad340</sys_update_name><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 07:35:09</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1899241304</payload_hash>
+        <record_name>Service Catalog.Test</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:35:09</sys_created_on>
+        <sys_id>9db8149b836e62108057f0b6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f342798f0000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:35:09</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ddb8149b6e6e621013ac481152e0f142</update_guid>
+        <update_guid_history>ddb8149b6e6e621013ac481152e0f142:-1899241304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Test">fcd8949b836e62108057f0b6feaad3fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 07:35:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>aa5269885a63425b9a818efbfbf137c9</sys_id>
+        <sys_metadata>d9b8149b836e62108057f0b6feaad340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent display_value="">95789c5b836e62108057f0b6feaad399</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d9b8149b836e62108057f0b6feaad340</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d9b8149b836e62108057f0b6feaad340">9db8149b836e62108057f0b6feaad343</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 07:35:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

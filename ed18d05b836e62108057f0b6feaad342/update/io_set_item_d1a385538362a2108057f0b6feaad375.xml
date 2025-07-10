@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Test">3b6389538362a2108057f0b6feaad31f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 10:42:44</sys_created_on>
+        <sys_id>d1a385538362a2108057f0b6feaad375</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Attachment Tags.Test</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>io_set_item_d1a385538362a2108057f0b6feaad375</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:42:45</sys_updated_on>
+        <variable_set display_value="Attachment Tags">178ad81f836e62108057f0b6feaad3c1</variable_set>
+    </io_set_item>
+</record_update>

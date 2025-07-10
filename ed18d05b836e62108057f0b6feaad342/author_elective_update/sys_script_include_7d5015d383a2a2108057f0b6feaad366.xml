@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1699952_attach_0.AttachmentHack</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>    logFieldValue: function(fieldName, fieldValue) {&#13;
+        gs.info("Field changed: " + fieldName + " → " + fieldValue);&#13;
+        return "Server says hi to field " + fieldName;&#13;
+    },</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AttachmentHack</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script/>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 11:40:33</sys_created_on>
+        <sys_id>7d5015d383a2a2108057f0b6feaad366</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AttachmentHack</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_update_name>sys_script_include_7d5015d383a2a2108057f0b6feaad366</sys_update_name>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:50:17</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</application>
+        <file_path/>
+        <instance_id>6ec88b0d3b9deed8677f04e0b5e45ae7</instance_id>
+        <instance_name>dev340686</instance_name>
+        <name>sys_script_include_7d5015d383a2a2108057f0b6feaad366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include"><sys_script_include action="INSERT_OR_UPDATE"><access>package_private</access><active>true</active><api_name>x_1699952_attach_0.AttachmentHack</api_name><caller_access/><client_callable>false</client_callable><description>    logFieldValue: function(fieldName, fieldValue) {&#13;
+        gs.info("Field changed: " + fieldName + " → " + fieldValue);&#13;
+        return "Server says hi to field " + fieldName;&#13;
+    },</description><mobile_callable>false</mobile_callable><name>AttachmentHack</name><sandbox_callable>false</sandbox_callable><script/><sys_class_name>sys_script_include</sys_class_name><sys_created_by>sigval.bergesen@gmail.com</sys_created_by><sys_created_on>2025-07-10 11:40:33</sys_created_on><sys_id>7d5015d383a2a2108057f0b6feaad366</sys_id><sys_mod_count>5</sys_mod_count><sys_name>AttachmentHack</sys_name><sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package><sys_policy>read</sys_policy><sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope><sys_update_name>sys_script_include_7d5015d383a2a2108057f0b6feaad366</sys_update_name><sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by><sys_updated_on>2025-07-10 11:50:17</sys_updated_on></sys_script_include></record_update>]]></payload>
+        <payload_hash>214974271</payload_hash>
+        <record_name>AttachmentHack</record_name>
+        <reverted_from/>
+        <source>6d18d05b836e62108057f0b6feaad346</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 11:50:17</sys_created_on>
+        <sys_id>aa135d9783a2a2108057f0b6feaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f42c0e320000001</sys_recorded_at>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:50:17</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>62135d97bda2a210171978a5f3c8a9dd</update_guid>
+        <update_guid_history>62135d97bda2a210171978a5f3c8a9dd:214974271,98135997e0a2a21034bda359b083c2f8:-1734706858,9503dd57ada2a210e663ab0db1187be5:-957073197,f9e2d597aba2a210e924bd4b540ffe17:1009560002,48d211976da2a2100b88c46b38631dbe:428187878,5ce09dd3d3a2a210ca7f77f029d565da:-1945907989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sigval.bergesen@gmail.com</sys_created_by>
+        <sys_created_on>2025-07-10 11:50:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0629d6914d4045d1889afe5b83fd1531</sys_id>
+        <sys_metadata>7d5015d383a2a2108057f0b6feaad366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AttachmentHack</sys_name>
+        <sys_package display_value="Attachment Tags" source="x_1699952_attach_0">ed18d05b836e62108057f0b6feaad342</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Attachment Tags">ed18d05b836e62108057f0b6feaad342</sys_scope>
+        <sys_scope_delete display_value="">38e88e12842045bd879186239158a8a1</sys_scope_delete>
+        <sys_update_name>sys_script_include_7d5015d383a2a2108057f0b6feaad366</sys_update_name>
+        <sys_update_version display_value="sys_script_include_7d5015d383a2a2108057f0b6feaad366">aa135d9783a2a2108057f0b6feaad3dd</sys_update_version>
+        <sys_updated_by>sigval.bergesen@gmail.com</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:50:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
